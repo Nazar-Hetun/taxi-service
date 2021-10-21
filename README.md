@@ -1,5 +1,5 @@
 # Taxi Service
-This program imitates the work of taxi service.
+This application shows my skills in Java, SOLID principles, CRUD.  
 ### Tecnologies
 JDBC, Servlet's, MySQL, Tomcat. 
 ### Also you can see my app on Heroku:
@@ -27,10 +27,12 @@ Before you get access to all program functional you must authenticate.
 - add manufacturer `/manufacturers/add`
 - delete manufacturer `/manufacturers/delete`
 - get all manufacturers `/manufacturers/all`
+
+Logs you can find in your Tomcat directory.
 ### Login page:
-![img.png](src/main/resources/pictures/img.png)
-### Main page:
 ![img_1.png](src/main/resources/pictures/img_1.png)
+### Main page:
+![img.png](src/main/resources/pictures/img.png)
 
 
 

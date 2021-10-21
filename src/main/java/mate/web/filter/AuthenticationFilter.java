@@ -25,11 +25,7 @@ public class AuthenticationFilter extends HttpFilter {
             throws IOException, ServletException {
         HttpSession session = req.getSession();
         Long userId = (Long) session.getAttribute("driver_id");
-        if (userId == null && allowedUrl.contains(req.getServletPath())) {
-            chain.doFilter(req, res);
-            return;
-        }
-        if (userId == null) {
+        if (userId == null && !allowedUrl.contains(req.getServletPath())) {
             res.sendRedirect("/login");
             return;
         }
