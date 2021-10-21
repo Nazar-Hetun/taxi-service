@@ -2,6 +2,8 @@
 This program imitates the work of taxi service.
 ### Tecnologies
 JDBC, Servlet's, MySQL, Tomcat. 
+### Also you can see my app on Heroku:
+[Link](https://taxi-service-heroku.herokuapp.com/login)
 ## Let's install some programs:
 - Install Tomcat [9.0.50](https://tomcat.apache.org/download-90.cgi) 
 . Don't recommend installing version 10+ because program may not work correctly.
